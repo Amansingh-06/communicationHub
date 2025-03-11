@@ -29,7 +29,7 @@ CommunicationHub/
 🚀 Getting Started
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/event-listing-app.git
+git clone https://github.com/Amansingh-06/communicationHub.git
 cd event-listing-app
 2️⃣ Install Dependencies
 npm install
