@@ -1,12 +1,43 @@
-# React + Vite
+Event Listing App 🗓️
+This is a React-based Event Listing App that allows users to view, filter, and add new events. Events are displayed in a card format with images, and users can filter events by category.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+✅ Event Cards with Images - Each event is displayed with an image, title, date, location, and category.
+✅ Filter Events by Category - Users can filter events by "Religious", "Social", or "Charity".
+✅ Add New Event - Users can add new events with title, date, location, category, and an optional image.
+✅ Responsive UI - The app is fully responsive, working well on mobile and desktop.
+✅ Dynamic Grid Layout - Events are displayed in a structured grid format for better visibility.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Tech Stack
+Frontend: React.js, Tailwind CSS
+State Management: useState (React Hooks)
+Deployment: Vercel(https://communication-hub-bice.vercel.app)
 
-## Expanding the ESLint configuration
+📂 Project Structure
+CommunicationHub/
+│── src/
+│   ├── Pages/
+│   │   ├── HomePage.jsx
+│   │   ├── EventListingPage.jsx
+│   ├── App.jsx
+│   ├── index.js
+│── public/
+│── package.json
+│── README.md
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Getting Started
+1️⃣ Clone the Repository
+
+git clone https://github.com/your-username/event-listing-app.git
+cd event-listing-app
+2️⃣ Install Dependencies
+npm install
+3️⃣ Start the Development Server
+npm run dev
+Your app will be live at http://localhost:5173/
+
+📜 Usage
+View Events - All events are displayed in a grid layout.
+Filter Events - Click on filter buttons (All, Religious, Social, Charity) to see specific events.
+Add New Event - Fill in the event details and click "Add Event" to see it added instantly.
